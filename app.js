@@ -4,7 +4,7 @@ const config = require('dotenv')
 config.config()
 const mongoose=require("mongoose")
 const router=require("./router")
-mongoose.connect("mongodb+srv://mathan:mathan123@cluster0.slq6nhk.mongodb.net/mathan")
+mongoose.connect("mongodb+srv://Test:Test123@cluster0.3ohdozu.mongodb.net/kavi")
 .then(()=>{
 console.log("db connected successfully");
 }).catch(()=>{
